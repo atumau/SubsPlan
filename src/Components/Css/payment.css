@@ -4,7 +4,6 @@
   }
   
   .payment-card {
-    display: flex;
     justify-content: space-between;
     align-items: flex-start;
     width: 400px;
@@ -85,3 +84,10 @@ button.payment-confirm {
     background: #007bff;
    
 }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) { 
+  .payment-input {
+    width: 100% !important;
+}
+
+  }

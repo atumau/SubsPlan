@@ -23,3 +23,9 @@
     font-size: 27px;
     font-family: sans-serif;
 }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) { 
+    .sign-up {
+        width: 90% !important
+    }
+}
