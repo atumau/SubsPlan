@@ -1,0 +1,25 @@
+.sign-up{
+    width: 30%;
+    margin: auto;
+    margin-top: 4%;
+    background: white;
+  border-radius: 5px;
+}
+
+.wrap-signup{
+    height: 100vh;
+
+}
+
+.bg{
+
+    padding-top: 1px;
+    padding-bottom: 10px;
+    background: #039;
+}
+.heading {
+    text-align: center!important;
+    font-weight: 700;
+    font-size: 27px;
+    font-family: sans-serif;
+}

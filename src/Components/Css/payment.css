@@ -1,0 +1,87 @@
+.App {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .payment-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .card-details {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .card-details h2 {
+    margin-top: 0;
+    text-align: left;
+  }
+  
+  .card-details label {
+    font-weight: bold;
+  }
+  
+  .card-details input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .order-summary {
+    flex: 1;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .order-summary h2 {
+    margin-top: 0;
+  }
+  
+  .order-summary p {
+    margin: 0;
+  }
+  
+  .confirm-button {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .confirm-button button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .confirm-button button:hover {
+    background-color: #0056b3;
+  }
+  .payment-input {
+    width: 185px !important;
+}
+.payment-form {
+    display: flex;
+    justify-content: space-between;
+}
+button.payment-confirm {
+    color: #ffff;
+    border: none;
+    float: left;
+    padding: 7px 15px;
+    border-radius: 5px;
+    background: #007bff;
+   
+}

@@ -1,0 +1,65 @@
+.pricing-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .toggle-button {
+    border: none;
+    background-color: #ccc;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .toggle-button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  
+  .feature.mobile {
+    background-color: #f0f0f0;
+  }
+  
+  .feature.basic {
+    background-color: #d4edda;
+  }
+  
+  .feature.standard {
+    background-color: #cce5ff;
+  }
+  
+  .feature.premium {
+    background-color: #f8d7da;
+  }
+  .card-bg {
+    background: #9cc3ea9c !important;
+    border: none;
+}  
+
+.card-bg:hover{
+    background: #9cc3ea !important;
+    cursor: pointer;
+}
+
+
